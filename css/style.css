@@ -1,0 +1,22 @@
+body{
+    background-color: #151b29;
+    color: white;
+}
+
+.img-fluid{
+    width: 10em;
+    height: 10em;
+    border-radius: 20%;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+
+.img-fluid:hover{
+    border-radius: 10%;
+    border-color: #994e4e;
+    box-shadow: 0 0.5em 0.5em -0.4em #994e4e;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
